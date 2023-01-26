@@ -5,7 +5,7 @@ body {
 .navbar {
     padding-left: 50px;
     padding-right: 50px;
-    background-color: aquamarine;
+    background-color: cadetblue;
     display: flex;
     justify-content: space-between;
 }
@@ -21,6 +21,10 @@ body {
     font-weight: bold;
 }
 
+.menu li:hover {
+    color: white;
+}
+
 .header-banner {
     height: 400px;
     background-image: url(/images/banner\ 1.png);
@@ -34,22 +38,28 @@ body {
 
 .header-banner h1 {
     font-size: 50px;
-    margin: 0;
+    margin: 5px;
 }
 
 button {
-    background-color: aquamarine;
-    border: none;
+    background-color: tomato;
+    border: 1px solid tomato;
     padding: 12px;
     border-radius: 5px;
     display: flex;
     align-items: center;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+
 }
 
 button:hover {
-    background-color: aqua;
+    background-color: white;
+    color: tomato;
     border-radius: 6px;
-    font-weight: bold;
+
+
 }
 
 .wedding-container {
@@ -68,15 +78,19 @@ button:hover {
 
 .container {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .packages {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 50px;
+
 
 }
 
@@ -84,9 +98,17 @@ button:hover {
     text-align: left;
     display: flex;
     flex-direction: column;
-    border: 1px solid;
+    border: 1px solid #f5f5f5;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
+    box-shadow: 1px 0px 10px 1px #44444421 inset;
+}
+
+.package:hover {
+    background-color: cadetblue;
+    transform: scale(1.1);
+    transition: 0.3s;
+    color: white;
 }
 
 .package button {
@@ -110,9 +132,13 @@ p {
 }
 
 .feedback {
-    border: 1px solid;
-    border-radius: 5px;
-    padding: 10px;
+    box-shadow: 1px 0px 10px 1px #44444421;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.feedback:hover {
+    box-shadow: 1px 0px 10px 1px #4444444f;
 }
 
 .feedback h2,
@@ -153,4 +179,16 @@ h4 {
     gap: 20px;
     justify-content: center;
     align-items: center;
+}
+
+footer {
+    background-color: cadetblue;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    width: 200px;
 }
