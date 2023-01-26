@@ -42,10 +42,60 @@ button {
     border: none;
     padding: 12px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
 }
 
 button:hover {
     background-color: aqua;
     border-radius: 6px;
     font-weight: bold;
+}
+
+.wedding-container {
+    padding: 50px;
+}
+
+.wedding-moment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wedding-content {
+    padding-left: 50px;
+}
+
+.package-container {
+    text-align: center;
+}
+
+.packages {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.package {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.package button {
+
+    justify-content: center;
+}
+
+.package h2,
+h3,
+p {
+    margin: 5px;
 }
