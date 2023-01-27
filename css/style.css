@@ -33,7 +33,7 @@ body {
 
 .header-banner {
     height: 400px;
-    background: url(/images/banner1.png);
+    background: url(../images/banner1.png);
     color: white;
     text-align: center;
     display: flex;
