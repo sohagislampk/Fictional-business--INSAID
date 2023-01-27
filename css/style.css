@@ -33,7 +33,7 @@ body {
 
 .header-banner {
     height: 400px;
-    background-image: url(https://github.com/sohagislampk/Fictional-business--INSAID/blob/main/images/banner%201.png);
+    background-image: url(/images/banner\ 1.png);
     color: white;
     text-align: center;
     display: flex;
