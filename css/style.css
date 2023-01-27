@@ -6,6 +6,7 @@ body {
     padding-left: 50px;
     padding-right: 50px;
     background-color: cadetblue;
+    color: white;
     display: flex;
     justify-content: space-between;
 }
@@ -21,8 +22,13 @@ body {
     font-weight: bold;
 }
 
-.menu li:hover {
+.menu a {
+    text-decoration: none;
     color: white;
+}
+
+.menu li:hover {
+    color: tomato;
 }
 
 .header-banner {
@@ -183,6 +189,7 @@ h4 {
 
 footer {
     background-color: cadetblue;
+    color: white;
     padding: 50px;
     display: flex;
     justify-content: space-between;
